@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xchange – Payment & Skill Points</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav-inner container">
+      <div class="nav-left">
+        <div class="logo-mark"></div>
+        <span class="logo-text">Xchange</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Overview</a>
+        <a href="features.html">Features</a>
+        <a href="how-it-works.html">How it works</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="community.html">Community</a>
+        <a href="download.html">Download</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="login.html" class="btn btn-ghost">Log in</a>
+        <a href="download.html" class="btn btn-primary">Get started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAYMENT SECTION -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header align-center">
+        <h2>Skill points, made simple.</h2>
+        <p>
+          Xchange uses a point system so trading skills feels fair and transparent.
+          This page shows how users would top up and manage their balance.
+        </p>
+      </div>
+
+      <div class="payment-layout">
+        <!-- LEFT: EXPLANATION -->
+        <div class="payment-info">
+          <h3>How Xchange payments work</h3>
+          <p>
+            Every learning session has a clear point value.
+            You can earn points by teaching, or buy a small bundle when you’re in a hurry.
+          </p>
+          <ul class="payment-list">
+            <li>1 point ≈ 1 minute of learning time (configurable)</li>
+            <li>Secure card and wallet payments through third-party providers</li>
+            <li>Receipts and session history available inside your profile</li>
+          </ul>
+
+          <h4>Supported methods (prototype copy)</h4>
+          <ul class="payment-tags">
+            <li>Credit / Debit card</li>
+            <li>Apple Pay / Google Pay</li>
+            <li>QR PromptPay (for Thailand)</li>
+          </ul>
+
+          <p class="payment-note">
+            This page is a front-end prototype only.
+            In the real product, payments would be handled securely by providers like Stripe or Omise.
+          </p>
+        </div>
+
+        <!-- RIGHT: MOCK TOP-UP FORM -->
+        <div class="payment-card">
+          <h3>Top up skill points</h3>
+          <form class="payment-form">
+            <div class="form-group">
+              <label for="plan">Choose a bundle</label>
+              <select id="plan" name="plan">
+                <option value="starter">Starter • 200 points • $6</option>
+                <option value="creator">Creator • 600 points • $15</option>
+                <option value="pro">Pro • 1500 points • $32</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="card-name">Name on card</label>
+              <input id="card-name" type="text" placeholder="Your full name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="card-number">Card number</label>
+              <input id="card-number" type="text" placeholder="1234 5678 9012 3456" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group half">
+                <label for="expiry">Expiry</label>
+                <input id="expiry" type="text" placeholder="MM/YY" required />
+              </div>
+              <div class="form-group half">
+                <label for="cvc">CVC</label>
+                <input id="cvc" type="password" placeholder="•••" required />
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary auth-btn">
+              Pay now (demo)
+            </button>
+            <p class="payment-disclaimer">
+              For this assignment, the “Pay now” button is visual only and does not charge anything.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <span class="logo-text">Xchange</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Overview</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="community.html">Community</a>
+      </div>
+      <p class="footer-copy">© 2025 Xchange. Payment system shown for design and explanation only.</p>
+    </div>
+  </footer>
+</body>
+</html>
