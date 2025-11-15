@@ -6,14 +6,17 @@
   <title>Xchange – Pricing</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
+  <!-- NAVBAR -->
   <header class="nav">
     <div class="nav-inner container">
       <div class="nav-left">
         <div class="logo-mark"></div>
         <span class="logo-text">Xchange</span>
       </div>
-  
+
       <nav class="nav-links">
         <a href="index.html">Overview</a>
         <a href="features.html">Features</a>
@@ -22,7 +25,7 @@
         <a href="community.html">Community</a>
         <a href="download.html">Download</a>
       </nav>
-  
+
       <div class="nav-cta">
         <a href="login.html" class="btn btn-ghost">Log in</a>
         <a href="download.html" class="btn btn-primary">Get started</a>
@@ -30,6 +33,7 @@
     </div>
   </header>
 
+  <!-- PRICING SECTION -->
   <section class="section section-light">
     <div class="container">
       <div class="section-header align-center">
@@ -38,61 +42,86 @@
       </div>
 
       <div class="pricing-grid">
+
+        <!-- FREE PLAN -->
         <article class="pricing-card">
           <h3>Free</h3>
           <p class="pricing-price">$0</p>
           <p class="pricing-tagline">For curious learners.</p>
+
           <ul>
             <li>Profile & wishlist</li>
             <li>Earn & spend skill points</li>
             <li>Up to 2 active sessions</li>
           </ul>
-          <button class="btn btn-outline">Get started</button>
+
+          <!-- BUTTON GOES TO PAYMENT -->
+          <button class="btn btn-outline" onclick="location.href='payment.html'">
+            Get started
+          </button>
         </article>
 
+        <!-- CREATOR PLAN -->
         <article class="pricing-card pricing-card-featured">
           <div class="pill-badge">Most popular</div>
+
           <h3>Creator</h3>
           <p class="pricing-price">$8<span>/month</span></p>
           <p class="pricing-tagline">For people who teach regularly.</p>
+
           <ul>
             <li>Unlimited active sessions</li>
             <li>Mentor insights dashboard</li>
             <li>Priority search placement</li>
             <li>Verified mentor badge</li>
           </ul>
-          <button class="btn btn-primary-full">Upgrade to Creator</button>
+
+          <!-- BUTTON GOES TO PAYMENT -->
+          <button class="btn btn-primary-full" onclick="location.href='payment.html'">
+            Upgrade to Creator
+          </button>
         </article>
 
+        <!-- CAMPUS PLAN -->
         <article class="pricing-card">
           <h3>Campus</h3>
           <p class="pricing-price">Custom</p>
           <p class="pricing-tagline">For universities and communities.</p>
+
           <ul>
             <li>Private campus network</li>
             <li>Safety and admin controls</li>
             <li>Custom branding</li>
           </ul>
-          <button class="btn btn-outline">Talk to us</button>
+
+          <!-- BUTTON GOES TO PAYMENT -->
+          <button class="btn btn-outline" onclick="location.href='payment.html'">
+            Talk to us
+          </button>
         </article>
+
       </div>
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <div <div class="logo-mark small"></div>
+        <div class="logo-mark small"></div>
         <span class="logo-text">Xchange</span>
       </div>
+
       <div class="footer-links">
         <a href="index.html">Overview</a>
         <a href="features.html">Features</a>
         <a href="pricing.html">Pricing</a>
         <a href="community.html">Community</a>
       </div>
-      <p class="footer-copy">© 2025 Xchange.</p>
+
+      <p class="footer-copy">© 2025 Xchange. Interface prototype for academic use.</p>
     </div>
   </footer>
+
 </body>
 </html>
