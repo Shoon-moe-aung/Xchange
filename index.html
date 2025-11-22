@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Skills – Xchange</title>
+  <title>Xchange – Community Skill Exchange</title>
 
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
 <body>
-
   <!-- NAVBAR -->
   <header class="nav">
     <div class="nav-inner container">
@@ -33,6 +32,7 @@
         <a href="download.html" class="btn btn-primary">Get started</a>
       </div>
 
+      <!-- mobile toggle -->
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -40,80 +40,85 @@
     </div>
   </header>
 
-  <!-- SKILLS PAGE BODY -->
-  <main class="section section-dark">
-    <div class="container">
-      <div class="skills-shell">
-        <!-- LEFT SIDEBAR -->
-        <aside class="skills-sidebar">
-          <h2 class="sidebar-title">Skill discovery</h2>
-          <nav class="sidebar-nav">
-            <button class="sidebar-item active">
-              <span class="sidebar-icon">📚</span>
-              <span>Skill categories</span>
-            </button>
-            <button class="sidebar-item">
-              <span class="sidebar-icon">🧑‍🏫</span>
-              <span>Live sessions</span>
-            </button>
-            <button class="sidebar-item">
-              <span class="sidebar-icon">🧩</span>
-              <span>Skill paths</span>
-            </button>
-            <button class="sidebar-item">
-              <span class="sidebar-icon">💼</span>
-              <span>Career goals</span>
-            </button>
-            <button class="sidebar-item">
-              <span class="sidebar-icon">🏅</span>
-              <span>Certification prep</span>
-            </button>
-          </nav>
-        </aside>
 
-        <!-- RIGHT GRID -->
-        <section class="skills-main">
-          <header class="skills-header">
-            <h1>Skill categories</h1>
-            <p>
-              Explore skills taught by people in your community. Use your skill
-              points to learn programming, design, languages and more.
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-inner container">
+    <div class="hero-copy">
+      <p class="eyebrow">NEW • COMMUNITY SKILL PLATFORM</p>
+
+      <h1>Turn your skills into a new kind of currency</h1>
+
+      <p class="hero-subtitle">
+        Xchange connects people who want to learn with people who love to teach.
+        Trade skills, not just time. Learn anything from guitar to graphic design,
+        right inside your community.
+      </p>
+
+      <div class="hero-actions">
+        <a href="download.html" class="btn btn-primary hero-btn-main">
+          Start trading skills
+        </a>
+        <a href="how-it-works.html" class="btn btn-ghost hero-btn-secondary">
+          See how it works
+        </a>
+      </div>
+
+      <p class="hero-note">
+        No credit card required • Built for students, creators and lifelong learners
+      </p>
+    </div>
+
+      <div class="hero-visual">
+        <div class="hero-device">
+          <div class="device-status-bar">
+            <span>Xchange</span>
+            <span class="status-dot"></span>
+          </div>
+
+          <div class="device-hero-card">
+            <p class="device-tag">Discover</p>
+            <h2>Photography for beginners</h2>
+            <p class="device-text">
+              Learn camera basics in 3 sessions. Trade using skill points –
+              no cash needed.
             </p>
-          </header>
-
-          <section class="skills-group">
-            <h2>Popular languages</h2>
-            <div class="skills-grid">
-              <button class="skill-pill"><span class="pill-icon">🐍</span><span>Python</span></button>
-              <button class="skill-pill"><span class="pill-icon">🟨</span><span>JavaScript</span></button>
-              <button class="skill-pill"><span class="pill-icon">🌐</span><span>HTML &amp; CSS</span></button>
-              <button class="skill-pill"><span class="pill-icon">➕</span><span>C++</span></button>
-              <button class="skill-pill"><span class="pill-icon">☕</span><span>Java</span></button>
-              <button class="skill-pill"><span class="pill-icon">💾</span><span>SQL</span></button>
+            <div class="device-meta">
+              <div>
+                <span class="device-label">Mentor</span>
+                <p class="device-value">Amara • 4.9 ★</p>
+              </div>
+              <div>
+                <span class="device-label">Cost</span>
+                <p class="device-value">120 pts</p>
+              </div>
             </div>
-          </section>
+            <button class="device-btn">Request session</button>
+          </div>
 
-          <section class="skills-group">
-            <h2>Popular subjects</h2>
-            <div class="skills-grid">
-              <button class="skill-pill"><span class="pill-icon">🤖</span><span>AI &amp; machine learning</span></button>
-              <button class="skill-pill"><span class="pill-icon">💻</span><span>Web development</span></button>
-              <button class="skill-pill"><span class="pill-icon">🎨</span><span>UI / UX &amp; design</span></button>
-              <button class="skill-pill"><span class="pill-icon">🧠</span><span>Study &amp; focus habits</span></button>
-              <button class="skill-pill"><span class="pill-icon">🗣️</span><span>English conversation</span></button>
-              <button class="skill-pill"><span class="pill-icon">🇰🇷</span><span>Korean for beginners</span></button>
-              <button class="skill-pill"><span class="pill-icon">📷</span><span>Photography</span></button>
-              <button class="skill-pill"><span class="pill-icon">🧘</span><span>Wellness &amp; yoga</span></button>
-            </div>
-          </section>
-
-          <p class="skills-footer-link">
-            More skills are coming soon – this is a prototype for your soft pitch.
-          </p>
-        </section>
+          <div class="device-pill device-pill-1">
+            <span class="pill-title">You offer</span>
+            <span class="pill-text">Basic coding help</span>
+          </div>
+          <div class="device-pill device-pill-2">
+            <span class="pill-title">You learn</span>
+            <span class="pill-text">Digital illustration</span>
+          </div>
+        </div>
       </div>
     </div>
-  </main>
+  </section>
+
+  <!-- SHORT INTRO SECTION -->
+  <section class="section section-light">
+    <div class="container section-header align-center">
+      <h2>Built for real communities.</h2>
+      <p>
+        Xchange gives students, creators and everyday learners a place to
+        trade knowledge in a fair, transparent way.
+      </p>
+    </div>
+  </section>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -133,6 +138,5 @@
       </p>
     </div>
   </footer>
-
 </body>
 </html>
