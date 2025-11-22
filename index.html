@@ -5,7 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Xchange – Community Skill Exchange</title>
+
+  <!-- Main styles -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- JS for mobile nav + demo behaviours -->
+  <script defer src="script.js"></script>
 </head>
 <body>
   <!-- NAVBAR -->
@@ -15,7 +20,7 @@
         <div class="logo-mark"></div>
         <span class="logo-text">Xchange</span>
       </div>
-  
+
       <nav class="nav-links">
         <a href="index.html">Overview</a>
         <a href="features.html">Features</a>
@@ -24,11 +29,17 @@
         <a href="community.html">Community</a>
         <a href="download.html">Download</a>
       </nav>
-  
+
       <div class="nav-cta">
         <a href="login.html" class="btn btn-ghost">Log in</a>
         <a href="download.html" class="btn btn-primary">Get started</a>
       </div>
+
+      <!-- Mobile menu button (works with script.js) -->
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
 
