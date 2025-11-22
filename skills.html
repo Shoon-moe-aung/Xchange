@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <!-- NAVBAR (same as all pages) -->
+  <!-- NAVBAR (same on every page) -->
   <header class="nav">
     <div class="nav-inner container">
       <div class="nav-left">
@@ -40,119 +40,126 @@
     </div>
   </header>
 
-  <!-- SKILLS PAGE HERO -->
-  <section class="section section-dark">
-    <div class="container section-header align-center">
-      <h2>Select the skill you want to learn.</h2>
-      <p>Find verified mentors and start learning through skill points.</p>
-    </div>
-  </section>
-
-  <!-- SKILL FILTERS + CARDS -->
-  <section class="section section-dark">
+  <!-- SKILLS PAGE -->
+  <main class="section section-dark">
     <div class="container">
 
-      <div class="skill-filters">
-        <button class="skill-filter-btn active" data-category="all">All skills</button>
-        <button class="skill-filter-btn" data-category="creative">Creative</button>
-        <button class="skill-filter-btn" data-category="tech">Tech</button>
-        <button class="skill-filter-btn" data-category="language">Language</button>
-        <button class="skill-filter-btn" data-category="wellness">Wellness</button>
+      <div class="skills-shell">
+        <!-- LEFT SIDEBAR -->
+        <aside class="skills-sidebar">
+          <h2 class="sidebar-title">Skill discovery</h2>
+          <nav class="sidebar-nav">
+            <button class="sidebar-item active">
+              <span class="sidebar-icon">📚</span>
+              <span>Skill categories</span>
+            </button>
+            <button class="sidebar-item">
+              <span class="sidebar-icon">🧑‍🏫</span>
+              <span>Live sessions</span>
+            </button>
+            <button class="sidebar-item">
+              <span class="sidebar-icon">🧩</span>
+              <span>Skill paths</span>
+            </button>
+            <button class="sidebar-item">
+              <span class="sidebar-icon">💼</span>
+              <span>Career goals</span>
+            </button>
+            <button class="sidebar-item">
+              <span class="sidebar-icon">🏅</span>
+              <span>Certification prep</span>
+            </button>
+          </nav>
+        </aside>
+
+        <!-- RIGHT CONTENT -->
+        <section class="skills-main">
+          <header class="skills-header">
+            <h1>Skill categories</h1>
+            <p>
+              Explore skills taught by people in your community. Use your skill
+              points to learn programming, design, languages and more.
+            </p>
+          </header>
+
+          <!-- POPULAR LANGUAGES -->
+          <section class="skills-group">
+            <h2>Popular languages</h2>
+            <div class="skills-grid">
+              <button class="skill-pill">
+                <span class="pill-icon">🐍</span>
+                <span>Python</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">🟨</span>
+                <span>JavaScript</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">🌐</span>
+                <span>HTML &amp; CSS</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">➕</span>
+                <span>C++</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">☕</span>
+                <span>Java</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">💾</span>
+                <span>SQL</span>
+              </button>
+            </div>
+          </section>
+
+          <!-- POPULAR SUBJECTS -->
+          <section class="skills-group">
+            <h2>Popular subjects</h2>
+            <div class="skills-grid">
+              <button class="skill-pill">
+                <span class="pill-icon">🤖</span>
+                <span>AI &amp; machine learning</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">💻</span>
+                <span>Web development</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">🎨</span>
+                <span>UI / UX &amp; design</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">🧠</span>
+                <span>Study &amp; focus habits</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">🗣️</span>
+                <span>English conversation</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">🇰🇷</span>
+                <span>Korean for beginners</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">📷</span>
+                <span>Photography</span>
+              </button>
+              <button class="skill-pill">
+                <span class="pill-icon">🧘</span>
+                <span>Wellness &amp; yoga</span>
+              </button>
+            </div>
+          </section>
+
+          <p class="skills-footer-link">
+            More skills are coming soon – this is a prototype for your soft pitch.
+          </p>
+        </section>
       </div>
 
-      <div class="skills-grid">
-
-        <article class="skill-card" data-category="creative">
-          <div class="skill-icon-box"><span class="skill-icon">🎨</span></div>
-          <p class="skill-tag">Creative</p>
-          <h3>Digital Illustration Basics</h3>
-          <p class="skill-desc">Learn brushes, layers and digital color theory.</p>
-          <div class="skill-meta">
-            <span>Mira • 4.8 ★</span><span>120 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-        <article class="skill-card" data-category="creative">
-          <div class="skill-icon-box"><span class="skill-icon">📷</span></div>
-          <p class="skill-tag">Creative</p>
-          <h3>Photography for Beginners</h3>
-          <p class="skill-desc">Master ISO, shutter speed and basic lighting.</p>
-          <div class="skill-meta">
-            <span>Amara • 4.9 ★</span><span>100 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-        <article class="skill-card" data-category="tech">
-          <div class="skill-icon-box"><span class="skill-icon">💻</span></div>
-          <p class="skill-tag">Tech</p>
-          <h3>Intro to Web Development</h3>
-          <p class="skill-desc">Build a landing page with HTML, CSS & JS.</p>
-          <div class="skill-meta">
-            <span>Liam • 4.7 ★</span><span>150 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-        <article class="skill-card" data-category="tech">
-          <div class="skill-icon-box"><span class="skill-icon">🐍</span></div>
-          <p class="skill-tag">Tech</p>
-          <h3>Python for Data Basics</h3>
-          <p class="skill-desc">Use Python and Jupyter for simple analysis.</p>
-          <div class="skill-meta">
-            <span>Kenji • 4.6 ★</span><span>130 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-        <article class="skill-card" data-category="language">
-          <div class="skill-icon-box"><span class="skill-icon">💬</span></div>
-          <p class="skill-tag">Language</p>
-          <h3>Conversational English</h3>
-          <p class="skill-desc">Practice daily conversation for study & travel.</p>
-          <div class="skill-meta">
-            <span>Sara • 4.9 ★</span><span>110 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-        <article class="skill-card" data-category="language">
-          <div class="skill-icon-box"><span class="skill-icon">🇰🇷</span></div>
-          <p class="skill-tag">Language</p>
-          <h3>Beginner Korean</h3>
-          <p class="skill-desc">Learn Hangul and everyday phrases.</p>
-          <div class="skill-meta">
-            <span>Jin • 4.7 ★</span><span>120 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-        <article class="skill-card" data-category="wellness">
-          <div class="skill-icon-box"><span class="skill-icon">🧠</span></div>
-          <p class="skill-tag">Wellness</p>
-          <h3>Mindful Study Habits</h3>
-          <p class="skill-desc">Focus routines & gentle productivity.</p>
-          <div class="skill-meta">
-            <span>Lina • 4.8 ★</span><span>90 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-        <article class="skill-card" data-category="wellness">
-          <div class="skill-icon-box"><span class="skill-icon">🧘</span></div>
-          <p class="skill-tag">Wellness</p>
-          <h3>Beginner Yoga</h3>
-          <p class="skill-desc">Simple poses for stretching after class.</p>
-          <div class="skill-meta">
-            <span>Noor • 4.6 ★</span><span>100 pts</span>
-          </div>
-          <button class="btn btn-primary skill-request-btn">Request</button>
-        </article>
-
-      </div>
     </div>
-  </section>
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">
