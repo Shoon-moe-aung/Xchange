@@ -965,3 +965,19 @@ input::placeholder {
 .nav-links.open {
   display: flex;
 }
+
+.skill-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+}
+
+.skill-icon {
+  font-size: 24px;
+}

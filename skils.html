@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills – Xchange</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav-inner container">
+      <div class="nav-left">
+        <div class="logo-mark"></div>
+        <span class="logo-text">Xchange</span>
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Overview</a>
+        <a href="features.html">Features</a>
+        <a href="how-it-works.html">How it works</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="community.html">Community</a>
+        <a href="download.html">Download</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="login.html" class="btn btn-ghost">Log in</a>
+        <a href="download.html" class="btn btn-primary">Get started</a>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SKILLS PAGE HERO -->
+  <section class="section section-dark">
+    <div class="container section-header align-center">
+      <h2>Select the skill you want to learn</h2>
+      <p>Find verified mentors and start learning through skill points.</p>
+    </div>
+  </section>
+
+  <!-- SKILL FILTERS -->
+  <section class="section section-dark">
+    <div class="container">
+
+      <div class="skill-filters">
+        <button class="skill-filter-btn active" data-category="all">All skills</button>
+        <button class="skill-filter-btn" data-category="creative">Creative</button>
+        <button class="skill-filter-btn" data-category="tech">Tech</button>
+        <button class="skill-filter-btn" data-category="language">Language</button>
+        <button class="skill-filter-btn" data-category="wellness">Wellness</button>
+      </div>
+
+      <!-- SKILL CARDS -->
+      <div class="skills-grid">
+
+        <!-- Creative -->
+        <article class="skill-card" data-category="creative">
+          <div class="skill-icon-box">
+            <span class="skill-icon">🎨</span>
+          </div>
+          <p class="skill-tag">Creative</p>
+          <h3>Digital Illustration Basics</h3>
+          <p class="skill-desc">Learn brushes, layers and digital color theory.</p>
+          <div class="skill-meta">
+            <span>Mira • 4.8 ★</span><span>120 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+        <article class="skill-card" data-category="creative">
+          <div class="skill-icon-box">
+            <span class="skill-icon">📷</span>
+          </div>
+          <p class="skill-tag">Creative</p>
+          <h3>Photography for Beginners</h3>
+          <p class="skill-desc">Master ISO, shutter speed and basic lighting.</p>
+          <div class="skill-meta">
+            <span>Amara • 4.9 ★</span><span>100 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+        <!-- Tech -->
+        <article class="skill-card" data-category="tech">
+          <div class="skill-icon-box">
+            <span class="skill-icon">💻</span>
+          </div>
+          <p class="skill-tag">Tech</p>
+          <h3>Intro to Web Development</h3>
+          <p class="skill-desc">Build a landing page using HTML, CSS & JavaScript.</p>
+          <div class="skill-meta">
+            <span>Liam • 4.7 ★</span><span>150 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+        <article class="skill-card" data-category="tech">
+          <div class="skill-icon-box">
+            <span class="skill-icon">🐍</span>
+          </div>
+          <p class="skill-tag">Tech</p>
+          <h3>Python for Data Basics</h3>
+          <p class="skill-desc">Learn Python, Jupyter and beginner data analysis.</p>
+          <div class="skill-meta">
+            <span>Kenji • 4.6 ★</span><span>130 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+        <!-- Language -->
+        <article class="skill-card" data-category="language">
+          <div class="skill-icon-box">
+            <span class="skill-icon">💬</span>
+          </div>
+          <p class="skill-tag">Language</p>
+          <h3>Conversational English</h3>
+          <p class="skill-desc">Improve speaking confidence & daily conversation.</p>
+          <div class="skill-meta">
+            <span>Sara • 4.9 ★</span><span>110 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+        <article class="skill-card" data-category="language">
+          <div class="skill-icon-box">
+            <span class="skill-icon">🇰🇷</span>
+          </div>
+          <p class="skill-tag">Language</p>
+          <h3>Beginner Korean</h3>
+          <p class="skill-desc">Learn Hangul, phrases and basic communication.</p>
+          <div class="skill-meta">
+            <span>Jin • 4.7 ★</span><span>120 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+        <!-- Wellness -->
+        <article class="skill-card" data-category="wellness">
+          <div class="skill-icon-box">
+            <span class="skill-icon">🧠</span>
+          </div>
+          <p class="skill-tag">Wellness</p>
+          <h3>Mindful Study Habits</h3>
+          <p class="skill-desc">Focus routines & stress-free productivity.</p>
+          <div class="skill-meta">
+            <span>Lina • 4.8 ★</span><span>90 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+        <article class="skill-card" data-category="wellness">
+          <div class="skill-icon-box">
+            <span class="skill-icon">🧘</span>
+          </div>
+          <p class="skill-tag">Wellness</p>
+          <h3>Beginner Yoga</h3>
+          <p class="skill-desc">Learn easy poses for daily stretching & calm.</p>
+          <div class="skill-meta">
+            <span>Noor • 4.6 ★</span><span>100 pts</span>
+          </div>
+          <button class="btn btn-primary skill-request-btn">Request</button>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark small"></div>
+        <span class="logo-text">Xchange</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Overview</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="community.html">Community</a>
+      </div>
+      <p class="footer-copy">
+        © 2025 Xchange. Interface prototype for academic use.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
